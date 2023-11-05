@@ -1,4 +1,4 @@
-# Multi-Agent Online Auction System Documentation
+# Multi-Agent Online Auction System
 
 ## Business Scenario
 
