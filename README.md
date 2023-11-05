@@ -14,28 +14,21 @@ The Multi-Agent Online Auction System simulates an online marketplace where user
 
 ## List of Agents
 
-1. **Auctioneer Agents:**
-   - *Description:* Manage individual auctions, track bids, and determine winners.
+1. **Auctioneer Agents:** Manage individual auctions, track bids, and determine winners.
 
-2. **Bidder Agents:**
-   - *Description:* Place bids, withdraw bids, and receive notifications about bidding status.
+2. **Bidder Agents:** Place bids, withdraw bids, and receive notifications about bidding status.
 
-3. **Seller Agents:**
-   - *Description:* Create new auctions, monitor auction listings, and receive notifications about winning bids.
+3. **Seller Agents:** Create new auctions, monitor auction listings, and receive notifications about winning bids.
 
-4. **Notification Agents:**
-   - *Description:* Notify bidders and sellers about bid updates, auction closing, and winner determination.
+4. **Notification Agents:** Notify bidders and sellers about bid updates, auction closing, and winner determination.
 
 ## Agent Interactions
 
-1. **Bid Placement:**
-   - *Description:* Bidder agents place bids on auctioneer agents. Auctioneer agents manage incoming bids, track the highest bid, and notify bidders if they have been outbid.
+1. **Bid Placement:** Bidder agents place bids on auctioneer agents. Auctioneer agents manage incoming bids, track the highest bid, and notify bidders if they have been outbid.
 
-2. **Auction Closing:**
-   - *Description:* Auctioneer agents monitor the duration of the auction and close the auction when the specified time limit is reached. They determine the winning bid and the winning bidder.
+2. **Auction Closing:** Auctioneer agents monitor the duration of the auction and close the auction when the specified time limit is reached. They determine the winning bid and the winning bidder.
 
-3. **Winner Notification:**
-   - *Description:* Notification agents inform the winning bidder and the seller about the auction outcome. They provide details about the winning bid amount and the next steps for payment and item transfer.
+3. **Winner Notification:** Notification agents inform the winning bidder and the seller about the auction outcome. They provide details about the winning bid amount and the next steps for payment and item transfer.
 
 ## Additional Documentation
 
