@@ -29,6 +29,30 @@ The Multi-Agent Online Auction System simulates an online marketplace where user
 2. **Auction Closing:** Auctioneer agents monitor the duration of the auction and close the auction when the specified time limit is reached. They determine the winning bid and the winning bidder.
 
 3. **Winner Notification:** Notification agents inform the winning bidder and the seller about the auction outcome. They provide details about the winning bid amount and the next steps for payment and item transfer.
+```
+              +-------------------+
+              |                   |
+              | Auctioneer Agent  |
+              |                   |
+              +-------------------+
+                      |
+           ___________|____________
+           |                      |
+           v                      v
++-------------------+  +-------------------+
+|                   |  |                   |
+|  Bidder Agent     |  |  Seller Agent     |
+|                   |  |                   |
++-------------------+  +-------------------+
+            |                      |
+            |______________________|
+                     |
+            +-------------------+
+            |                   |
+            | Notification Agent|
+            |                   |
+            +-------------------+
+```
 
 ## Additional Documentation
 
