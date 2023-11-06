@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd50824-b2ac-408e-85ef-623c34cf9cee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1dd50824-b2ac-408e-85ef-623c34cf9cee" name="Changes" comment="Create agents and behaviours and code structure">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auctions/behaviors/BidPlacementBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/auctions/behaviors/WinnerNotificationBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/AuctioneerAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auctions/agents/AuctioneerAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/BidderAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auctions/agents/BidderAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/NotificationAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auctions/agents/NotificationAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/SellerAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auctions/agents/SellerAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/behaviors/AuctionBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/auctions/behaviors/AuctionClosingBehavior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,11 +67,24 @@
       <option name="presentableId" value="Default" />
       <updated>1699227777554</updated>
       <workItem from="1699227778550" duration="3000" />
-      <workItem from="1699228124252" duration="307000" />
+      <workItem from="1699228124252" duration="3190000" />
     </task>
+    <task id="LOCAL-00001" summary="Create agents and behaviours and code structure">
+      <option name="closed" value="true" />
+      <created>1699228566059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699228566059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create agents and behaviours and code structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create agents and behaviours and code structure" />
   </component>
 </project>
