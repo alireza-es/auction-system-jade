@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd50824-b2ac-408e-85ef-623c34cf9cee" name="Changes" comment="Create agents and behaviours and code structure" />
+    <list default="true" id="1dd50824-b2ac-408e-85ef-623c34cf9cee" name="Changes" comment="Update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/AuctioneerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/BidderAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/NotificationAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/SellerAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/AuctioneerBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/BidderBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/NotificationBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/SellerBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/AuctionOntology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/actions/PlaceBid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/actions/StartAuction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/concepts/Bid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/concepts/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/predicates/AuctionStarted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/predicates/BidAccepted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/predicates/BidPlaced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ui/AuctionForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/AuctioneerAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/BidderAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/NotificationAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/agents/SellerAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/behaviors/AuctionClosingBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/behaviors/BidPlacementBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/auctions/behaviors/WinnerNotificationBehavior.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package.json" />
         <option value="Class" />
       </list>
     </option>
@@ -31,23 +64,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Alireza/Code/ucalgary/auction-system-jade/lib/jade/lib/jade.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alireza/Code/ucalgary/auction-system-jade&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="ca.ucalgary.auction.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.ucalgary.auction.Main" />
+      <module name="auction-system-jade" />
+      <option name="PROGRAM_PARAMETERS" value="-gui" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ca.ucalgary.auction.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1699227777554</updated>
       <workItem from="1699227778550" duration="3000" />
-      <workItem from="1699228124252" duration="3976000" />
+      <workItem from="1699228124252" duration="4214000" />
+      <workItem from="1699288344479" duration="1029000" />
+      <workItem from="1699289548020" duration="7242000" />
+      <workItem from="1699508095806" duration="443000" />
+      <workItem from="1699632584202" duration="991000" />
+      <workItem from="1699663400569" duration="4211000" />
+      <workItem from="1699668772824" duration="1704000" />
+      <workItem from="1699738940136" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="Create agents and behaviours and code structure">
       <option name="closed" value="true" />
@@ -75,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699233260780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1699243896860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699243896860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +148,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create agents and behaviours and code structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create agents and behaviours and code structure" />
+    <MESSAGE value="Update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/ucalgary/auction/agents/BidderAgent.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
