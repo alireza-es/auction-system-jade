@@ -1,1 +1,1 @@
-http://mars.ucalgary.ca:7778/acc
+http://10.13.61.103:7778/acc
