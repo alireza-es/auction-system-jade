@@ -1,28 +1,34 @@
 package ca.ucalgary.auction.model;
 
+import ca.ucalgary.auction.ontology.concepts.Item;
+
 public class Auction {
-    private int id;
-    private String item;
+    private long id;
+    private String itemName;
     private double startingPrice;
     private double currentBid;
     private int bidsCount;
     private long timeLeft;
 
-    public Auction(int id, String item, double startingPrice, double currentBid, int bidsCount, long timeLeft) {
+    public Auction(Item item) {
+        this(item.getId(), item.getName(), item.getStartingPrice(), 0, 0, 0);
+    }
+
+    public Auction(long id, String itemName, double startingPrice, double currentBid, int bidsCount, long timeLeft) {
         this.id = id;
-        this.item = item;
+        this.itemName = itemName;
         this.startingPrice = startingPrice;
         this.currentBid = currentBid;
         this.bidsCount = bidsCount;
         this.timeLeft = timeLeft;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public String getItem() {
-        return item;
+    public String getItemName() {
+        return itemName;
     }
 
     public double getStartingPrice() {
@@ -45,8 +51,8 @@ public class Auction {
         this.id = id;
     }
 
-    public void setItem(String item) {
-        this.item = item;
+    public void setItemName(String item) {
+        this.itemName = item;
     }
 
     public void setStartingPrice(double startingPrice) {

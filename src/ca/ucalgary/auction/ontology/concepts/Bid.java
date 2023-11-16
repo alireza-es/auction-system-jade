@@ -5,7 +5,7 @@ import jade.core.AID;
 
 public class Bid implements Concept {
     private AID bidder;
-    private int price;
+    private double price;
 
     public AID getBidder() {
         return bidder;
@@ -15,11 +15,11 @@ public class Bid implements Concept {
         this.bidder = bidder;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }

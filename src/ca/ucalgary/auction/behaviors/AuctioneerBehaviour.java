@@ -1,9 +1,11 @@
 package ca.ucalgary.auction.behaviors;
 
+import jade.content.ContentElement;
 import jade.content.lang.Codec;
 import jade.content.lang.sl.SLCodec;
 import jade.content.onto.Ontology;
 import jade.content.onto.OntologyException;
+import jade.content.onto.basic.Action;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
@@ -18,7 +20,7 @@ import ca.ucalgary.auction.ontology.concepts.Bid;
 
 public class AuctioneerBehaviour extends CyclicBehaviour {
     private AID highestBidder;
-    private int highestBid;
+    private double highestBid;
 
     public AuctioneerBehaviour(Agent a) {
         super(a);
@@ -35,7 +37,8 @@ public class AuctioneerBehaviour extends CyclicBehaviour {
         if (msg != null) {
             if (msg.getPerformative() == ACLMessage.REQUEST) {
                 try {
-                    StartAuction sa = (StartAuction) myAgent.getContentManager().extractContent(msg);
+                    Action actionContent = (Action) myAgent.getContentManager().extractContent(msg);
+                    StartAuction sa = (StartAuction) actionContent.getAction();
                     // Start a new auction
                     highestBid = sa.getItem().getStartingPrice();
                     highestBidder = null;

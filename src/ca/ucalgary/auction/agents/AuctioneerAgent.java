@@ -12,6 +12,7 @@ public class AuctioneerAgent extends Agent {
     private Ontology ontology = AuctionOntology.getInstance();
 
     protected void setup() {
+        System.out.println(">>>> 1) Auctioneer successfully started.");
         getContentManager().registerLanguage(codec);
         getContentManager().registerOntology(ontology);
         addBehaviour(new AuctioneerBehaviour(this));

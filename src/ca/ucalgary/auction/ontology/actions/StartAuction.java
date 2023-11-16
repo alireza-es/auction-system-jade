@@ -4,6 +4,9 @@ import jade.content.AgentAction;
 import ca.ucalgary.auction.ontology.concepts.Item;
 
 public class StartAuction implements AgentAction {
+    public StartAuction() {
+    }
+    
     public StartAuction(Item item) {
         this.setItem(item);
     }

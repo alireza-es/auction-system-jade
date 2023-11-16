@@ -4,6 +4,8 @@ import jade.content.AgentAction;
 import ca.ucalgary.auction.ontology.concepts.Bid;
 
 public class PlaceBid implements AgentAction {
+    public PlaceBid() {
+    }
     public PlaceBid(Bid bid) {
         this.setBid(bid);
     }

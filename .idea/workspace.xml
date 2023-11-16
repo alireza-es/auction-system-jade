@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd50824-b2ac-408e-85ef-623c34cf9cee" name="Changes" comment="Update workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1dd50824-b2ac-408e-85ef-623c34cf9cee" name="Changes" comment="Build Auction Form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MTPs-Main-Container.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/AuctioneerAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/AuctioneerAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/SellerAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/agents/SellerAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/AuctioneerBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/AuctioneerBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/SellerBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/SellerBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/model/Auction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/model/Auction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/actions/PlaceBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/actions/PlaceBid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/actions/StartAuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/actions/StartAuction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/concepts/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/concepts/Bid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/concepts/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ontology/concepts/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/ucalgary/auction/ui/AuctionForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/ucalgary/auction/ui/AuctionForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Alireza/Code/ucalgary/_new_auction/auction-system-jade",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alireza/Code/ucalgary/_new_auction/auction-system-jade&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ca.ucalgary.auction.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.ucalgary.auction.Main" />
@@ -91,6 +98,8 @@
       <workItem from="1699668772824" duration="1704000" />
       <workItem from="1699738940136" duration="1216000" />
       <workItem from="1700013307295" duration="2223000" />
+      <workItem from="1700090872339" duration="13896000" />
+      <workItem from="1700166410017" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="Create agents and behaviours and code structure">
       <option name="closed" value="true" />
@@ -116,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699243896860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Build Auction Form">
+      <option name="closed" value="true" />
+      <created>1700090977635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700090977635</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Build Auction Form">
+      <option name="closed" value="true" />
+      <created>1700091069314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700091069314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,20 +150,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create agents and behaviours and code structure" />
     <MESSAGE value="Update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml" />
+    <MESSAGE value="Build Auction Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build Auction Form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/ucalgary/auction/agents/BidderAgent.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/ca/ucalgary/auction/behaviors/SellerBehaviour.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/ucalgary/auction/Main.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/ca/ucalgary/auction/agents/SellerAgent.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ca/ucalgary/auction/agents/AuctionUpdateAgent.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
